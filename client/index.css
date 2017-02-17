@@ -1,0 +1,31 @@
+body {
+  background: url('https://i.ytimg.com/vi/U2TQyuxzWRA/maxresdefault.jpg');
+}
+
+.white-box {
+  background-color: white;
+  width: 700px;
+  height: 160px;
+  z-index: 1;
+  margin-left: 570px;
+  margin-top: 160px
+}
+
+h1{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.game-board {
+  margin-left: 60%;
+  margin-top: -310px;
+  background-color:#DAA520;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 5em;
+  background-color: #3bbc46;
+}
