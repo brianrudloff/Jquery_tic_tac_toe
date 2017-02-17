@@ -31,67 +31,67 @@ $(document).ready( function () {
 //check win conditions
   function winCheck() {
     if ($('#square00').text() === 'Z' && $('#square01').text() === 'Z' && $('#square02').text() === 'Z') {
-      alert('win');
+      alert('Player 1 Wins!');
       return;
     } 
     if ($('#square00').text() === 'O' && $('#square01').text() === 'O' && $('#square02').text() === 'O') {
-      alert('win');
+      alert('Player 2 Wins!');
       return;
     }
     if ($('#square10').text() === 'Z' && $('#square11').text() === 'Z' && $('#square12').text() === 'Z') {
-    alert('win');
+    alert('Player 1 Wins!');
     return;
     } 
     if ($('#square10').text() === 'O' && $('#square11').text() === 'O' && $('#square12').text() === 'O') {
-      alert('win');
+      alert('Player 2 Wins!');
       return;
     }
     if ($('#square20').text() === 'Z' && $('#square21').text() === 'Z' && $('#square22').text() === 'Z') {
-      alert('win');
+      alert('Player 1 Wins!');
       return;
     } 
     if ($('#square20').text() === 'O' && $('#square21').text() === 'O' && $('#square22').text() === 'O') {
-      alert('win');
+      alert('Player 2 Wins!');
       return;
     }
     if ($('#square00').text() === 'Z' && $('#square10').text() === 'Z' && $('#square20').text() === 'Z') {
-      alert('win');
+      alert('Player 1 Wins!');
       return;
     } 
     if ($('#square00').text() === 'O' && $('#square10').text() === 'O' && $('#square20').text() === 'O') {
-      alert('win');
+      alert('Player 2 Wins!');
       return;
     }
     if ($('#square01').text() === 'Z' && $('#square11').text() === 'Z' && $('#square21').text() === 'Z') {
-      alert('win');
+      alert('Player 1 Wins!');
       return;
     } 
     if ($('#square01').text() === 'O' && $('#square11').text() === 'O' && $('#square21').text() === 'O') {
-      alert('win');
+      alert('Player 2 Wins!');
       return;
     }
     if ($('#square02').text() === 'Z' && $('#square12').text() === 'Z' && $('#square22').text() === 'Z') {
-      alert('win');
+      alert('Player 1 Wins!');
       return;
     } 
     if ($('#square02').text() === 'O' && $('#square12').text() === 'O' && $('#square22').text() === 'O') {
-      alert('win');
+      alert('Player 2 Wins!');
       return;
     }
     if ($('#square00').text() === 'Z' && $('#square11').text() === 'Z' && $('#square22').text() === 'Z') {
-      alert('win');
+      alert('Player 1 Wins!');
       return;
     } 
     if ($('#square00').text() === 'O' && $('#square11').text() === 'O' && $('#square22').text() === 'O') {
-      alert('win');
+      alert('Player 2 Wins!');
       return;
     }
     if ($('#square02').text() === 'Z' && $('#square11').text() === 'Z' && $('#square20').text() === 'Z') {
-      alert('win')
+      alert('Player 1 Wins!')
       return;
     } 
     if ($('#square02').text() === 'O' && $('#square11').text() === 'O' && $('#square20').text() === 'O') {
-      alert('win');
+      alert('Player 2 Wins!');
       return;
     } 
     if (counter === 10) {
