@@ -17,13 +17,13 @@ $(document).ready( function () {
   let counter = 1;
 
 //square click functionality
-  $('.square').click( function () {
+  $('.square').click(function () {
     if (counter % 2 !== 0 && ($(this).text() === '-')) {
       counter += 1;
-      $(this).text('Z')
+      $(this).text('Z');
     } else if ($(this).text() === '-') {
       counter += 1;
-      $(this).text("O")
+      $(this).text('O');
     }
     winCheck();
   });
@@ -87,7 +87,7 @@ $(document).ready( function () {
       return;
     }
     if ($('#square02').text() === 'Z' && $('#square11').text() === 'Z' && $('#square20').text() === 'Z') {
-      alert('Player 1 Wins!')
+      alert('Player 1 Wins!');
       return;
     } 
     if ($('#square02').text() === 'O' && $('#square11').text() === 'O' && $('#square20').text() === 'O') {
